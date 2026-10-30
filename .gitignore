@@ -3,10 +3,11 @@
 .env.*
 *.env
 
-# Dependencies
+# Dependencies & Build artifacts
 node_modules/
 dist/
 build/
+.firebase/
 
 # Temp databases and uploads
 *.duckdb
@@ -23,3 +24,4 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+firebase-debug.log*

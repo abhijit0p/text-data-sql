@@ -6,8 +6,8 @@ import {
 } from 'recharts';
 import { Upload, Send, Database, Table as TableIcon, Sparkles } from 'lucide-react';
 
-const API_BASE = "http://localhost:5000";
-
+//const API_BASE = "http://localhost:5000";
+const API_BASE = "https://data-sql-backend-ip5vyvsgsa-el.a.run.app";
 export default function App() {
   const [sessionId, setSessionId] = useState(null);
   const [widgets, setWidgets] = useState([]);
