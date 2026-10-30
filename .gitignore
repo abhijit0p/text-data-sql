@@ -1,0 +1,25 @@
+# Environment & secrets
+.env
+.env.*
+*.env
+
+# Dependencies
+node_modules/
+dist/
+build/
+
+# Temp databases and uploads
+*.duckdb
+*.duckdb.wal
+/tmp/
+uploads/
+
+# OS and Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
